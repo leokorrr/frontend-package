@@ -1,3 +1,7 @@
+FIX:
+1. add gulp-cssnano dependency
+2. add gulp dependency
+
 Add:
 
 1. Autoprefixer
