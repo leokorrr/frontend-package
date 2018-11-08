@@ -1,5 +1,0 @@
-function a(){
-    console.log('a');
-}
-
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImEuanMiLCJsaWIvYi5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUNGQSIsImZpbGUiOiJhbGwuanMiLCJzb3VyY2VzQ29udGVudCI6WyJmdW5jdGlvbiBhKCl7XG4gICAgY29uc29sZS5sb2coJ2EnKTtcbn0iLCIiXX0=
