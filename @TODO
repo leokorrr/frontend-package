@@ -1,23 +1,16 @@
-FIX:
-1. add gulp-cssnano dependency
-2. add gulp dependency
-
 Add:
 
-1. Autoprefixer
-2. Babel
-3. Making Sprites
-4. Modulizing HTML
-5. Adding scripts better way
-6. Default <head> tag
-7. Default scss folder structure 
-8. Removing unused CSS with unCSS
-9. Further optimizing CSS with CSSO
+1. Babel
+2. Making Sprites
+3. Modulizing HTML
+4. Adding scripts better way
+5. Default <head> tag
+6. Default scss folder structure 
+7. Removing unused CSS with unCSS
 
 Consider:
 1. How to modulize HTML? (php/?)
-2. Where to put unminified css? (app/dist)
-3. ! React and Full stack apps integration
+2. ! React and Full stack apps integration
 
 
 
