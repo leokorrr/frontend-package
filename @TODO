@@ -1,12 +1,11 @@
 Add:
 
-1. Babel
-2. Making Sprites
-3. Modulizing HTML
-4. Adding scripts better way
-5. Default <head> tag
-6. Default scss folder structure 
-7. Removing unused CSS with unCSS
+1. Making Sprites
+2. Modulizing HTML
+3. Adding scripts better way
+4. Default <head> tag
+5. Default scss folder structure 
+6. Removing unused CSS with unCSS
 
 Consider:
 1. How to modulize HTML? (php/?)

@@ -1,6 +1,7 @@
 // Variable imports
 var gulp = require('gulp');
 var autoprefixer = require('gulp-autoprefixer');
+var babel = require('gulp-babel');
 var browserSync = require('browser-sync').create();
 var cache = require('gulp-cache');
 var concat = require('gulp-concat');
@@ -83,10 +84,15 @@ gulp.task('jshint', function(){
 gulp.task('js-concat', ['jshint'],  function(){
     return gulp.src('app/js/**/*.js')
         .pipe(sourcemaps.init())
+            .pipe(babel({
+                presets: ['@babel/env']
+            }))
             .pipe(concat('all.js'))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('dist/js'))
 })
+
+gulp
 
 // Building min.js
 gulp.task('js-build', ['js-concat'], function(){
